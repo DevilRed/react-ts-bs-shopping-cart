@@ -30,4 +30,4 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 code at https://github.com/WebDevSimplified/react-ts-shopping-cart
-from min 15.30
+from min 30.00
