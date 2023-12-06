@@ -27,7 +27,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
 	const increaseCartQuantity = (id: number) => {
 		setCartItems((currItems) => {
-			if(currItems.find(item => item.id === id) === null) {
+			if(currItems.find(item => item.id === id) == null) {
 				return [...currItems, {id, quantity: 1}]
 			} else {
 				return currItems.map(item => {
